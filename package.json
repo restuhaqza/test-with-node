@@ -1,0 +1,21 @@
+{
+  "name": "test-with-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage ./tests"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.1.1",
+    "mongoose": "^6.4.0",
+    "supertest": "^6.2.3"
+  }
+}
